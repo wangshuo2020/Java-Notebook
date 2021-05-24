@@ -1,1 +1,7 @@
-
+黑马:
+  RocketMQ〖一〗介绍及在服务器上分布式搭建多Master多Slave模式RocketMQ https://blog.csdn.net/kingtok/article/details/104212625
+  RocketMQ〖二〗安装可视化界面 https://blog.csdn.net/kingtok/article/details/104242918
+  RocketMQ〖三〗消息发送,同步消息,异步消息,单向消息,消息消费 https://blog.csdn.net/kingtok/article/details/104249540
+  RocketMQ〖四〗顺序消息,延时消息,批量消息 https://blog.csdn.net/kingtok/article/details/104263016
+  RocketMQ〖五〗过滤消息,事务消息 https://blog.csdn.net/kingtok/article/details/104286117
+  RocketMQ〖六〗消息的存储,高可用性机制,负载均衡 https://blog.csdn.net/kingtok/article/details/104412790
