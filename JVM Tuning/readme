@@ -1,3 +1,20 @@
+黑马:
+  视频链接: https://www.bilibili.com/video/av70549061
+  
+  官方笔记:
+    1_内存结构.pdf
+    2_垃圾回收.pdf
+    3_类加载与字节码技术.pdf
+    4_内存模型.pdf
+    
+  笔记一:
+    JVM学习 https://nyimac.gitee.io/2020/07/03/JVM%E5%AD%A6%E4%B9%A0/
+  
+  笔记二:
+    JVM 学习笔记（一）内存结构 https://blog.csdn.net/weixin_50280576/article/details/113742011
+    JVM 学习笔记（二）垃圾回收 https://blog.csdn.net/weixin_50280576/article/details/113775575
+    JVM 学习笔记（三）类加载与字节码技术&内存模型 https://blog.csdn.net/weixin_50280576/article/details/113784268
+
 面试题:
   2020年薪30W的Java程序员都要求熟悉JVM与性能调优！ https://juejin.cn/post/6844904056717213710
   
