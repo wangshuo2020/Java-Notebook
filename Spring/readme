@@ -3,6 +3,8 @@
   2020年3月47个经典Spring面试题详解(附带答案) https://juejin.cn/post/6844904080163225607
   15个经典的Spring面试常见问题 https://juejin.cn/post/6844903860658503693
   Spring面试题:打底50道，应该至少答对30个（附答案) https://juejin.cn/post/6844904186069385229
+  《今天面试了吗》-Spring https://juejin.cn/post/6844904090388922382
+  
 
 知识点:
   Spring Bean 生命周期: https://juejin.cn/post/6844903581011689480
@@ -10,5 +12,15 @@
   可能是最漂亮的Spring事务管理详解 https://juejin.cn/post/6844903608224333838
   面试官:“谈谈Spring中都用到了那些设计模式?”。 https://juejin.cn/post/6844903849849962509
   图解Spring解决循环依赖♻️ https://juejin.cn/post/6844904122160775176
+  spring是如何解决循环依赖的？ https://juejin.cn/post/6844903806757502984
+  一文带你认识Spring事务 https://juejin.cn/post/6844903772972384270
+  Spring AOP实现原理 https://juejin.cn/post/6844903604118093831
+  如何写好一个 Spring 组件 https://juejin.cn/post/6844904182822993928
+  Spring 注解 @Qualifier 详细解析 https://juejin.cn/post/6844904035342893063
+  原创 | 我被面试官给虐懵了，竟然是因为我不懂Spring中的@Configuration https://juejin.cn/post/6844903863833591822
+  如何在 Spring/Spring Boot 中做参数校验？你需要了解的都在这里！ https://juejin.cn/post/6844903991621451789
+  从零开始手写 spring ioc 框架，深入学习 spring 源码 https://juejin.cn/post/6844904008461582350
+  Spring AOP的使用 https://juejin.cn/post/6844903766035005453
+  一口气说出 6种，@Transactional注解的失效场景 https://juejin.cn/post/6844904096747503629
   
 
