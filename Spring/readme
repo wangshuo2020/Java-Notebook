@@ -3,6 +3,12 @@
   
   笔记一:
     spring IOC容器管理必须知道这些操作——基于XML方式 https://blog.csdn.net/weixin_45496190/article/details/107059038
+    Spring IOC容器-Bean管理——基于XML方式（续集） https://blog.csdn.net/weixin_45496190/article/details/107067200
+    spring IOC容器 Bean 管理——基于注解方式 https://blog.csdn.net/weixin_45496190/article/details/107071204
+    Spring-AOP概念及使用教程 https://blog.csdn.net/weixin_45496190/article/details/107082732
+    在spring中使用JdbcTemplate进行数据库管理操作 https://blog.csdn.net/weixin_45496190/article/details/107092107
+    Spring中事务的使用与配置 https://blog.csdn.net/weixin_45496190/article/details/107103027
+
 
 面试题:
   全网最全Spring系列面试题129道（附答案解析） https://juejin.cn/post/6844904081857708045
