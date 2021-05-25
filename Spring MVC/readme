@@ -24,11 +24,17 @@
     【SpringMVC学习笔记】—— 【五】异常处理+拦截器 https://blog.csdn.net/qq_41133986/article/details/105111595
      SSM整合高级实例：学生管理系统（包含增删改查和分页功能） https://blog.csdn.net/qq_41133986/article/details/106392396
   
-Spring MVC框架入门教程:
-  http://c.biancheng.net/spring_mvc/
   
-手码两万余字，SpringMVC 包教包会:
-  https://juejin.cn/post/6844904031807094798
-  
+知识点:
+  Spring MVC框架入门教程: http://c.biancheng.net/spring_mvc/
+  手码两万余字，SpringMVC 包教包会: https://juejin.cn/post/6844904031807094798
+  springmvc工作原理及源码分析: https://juejin.cn/post/6844903744333676557
+  Spring MVC 到 Spring Boot 的简化之路: https://juejin.cn/post/6844903573453537294
+  Servlet 到 Spring MVC 的简化之路 https://juejin.cn/post/6844903570681135117
+  SpringMVC源码分析系列(精简) https://juejin.cn/post/6844903577547177991
+  SpringMVC入门就这么简单 https://juejin.cn/post/6844903576368594952
+  SpringMVC源码系列：九大组件小记 https://juejin.cn/post/6844903581766811655
+  深入理解Spring MVC https://mp.weixin.qq.com/s/r8CSLRpmYzC263bIElbWCw
+  自己手写一个SpringMVC框架(简化) https://my.oschina.net/liughDevelop/blog/1622646
 
   
