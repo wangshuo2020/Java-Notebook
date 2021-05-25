@@ -1,3 +1,12 @@
+黑马:
+  视频链接:https://www.bilibili.com/video/BV16J411h7Rd
+  
+  笔记一:
+    Java 并发编程上篇 -（Synchronized 原理、LockSupport 原理、ReentrantLock 原理） https://blog.csdn.net/weixin_50280576/article/details/113033975
+    Java 并发编程中篇 -（JMM、CAS 原理、Volatile 原理） https://blog.csdn.net/weixin_50280576/article/details/113532093
+    Java 并发编程下篇 -（线程池） https://blog.csdn.net/weixin_50280576/article/details/113532107
+    Java 并发编程下篇 -（JUC、AQS 源码、ReentrantLock 源码） https://blog.csdn.net/weixin_50280576/article/details/113727645
+
 面试题:
   2万字Java并发编程面试题合集（含答案，建议收藏） https://juejin.cn/post/6844904063687983111
   Java高并发综合 https://juejin.cn/post/6844903503333179405
