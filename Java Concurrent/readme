@@ -48,5 +48,6 @@
   阿里面试官：说一下公平锁和非公平锁的区别？ https://blog.csdn.net/qq_35190492/article/details/104943579
   Lock，tryLock，lockInterruptibly区别 https://blog.csdn.net/u013851082/article/details/70140223
   Java：CAS(乐观锁) https://www.jianshu.com/p/ae25eb3cfb5d
+  Thread的中断机制(interrupt) https://www.cnblogs.com/onlywujun/p/3565082.html
   
   
