@@ -18,3 +18,6 @@
 面试题:
   2020年薪30W的Java程序员都要求熟悉JVM与性能调优！ https://juejin.cn/post/6844904056717213710
   
+知识点:
+  JVM 引用计数法 & 引用链法详细解析：如何判断一个Java对象是否存活 https://blog.csdn.net/carson_ho/article/details/102540797
+  
