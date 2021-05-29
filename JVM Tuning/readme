@@ -20,4 +20,5 @@
   
 知识点:
   JVM 引用计数法 & 引用链法详细解析：如何判断一个Java对象是否存活 https://blog.csdn.net/carson_ho/article/details/102540797
+  字符串常量池、class常量池和运行时常量池 https://blog.csdn.net/qq_26222859/article/details/73135660
   
