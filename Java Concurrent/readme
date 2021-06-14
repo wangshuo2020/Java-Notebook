@@ -52,5 +52,6 @@
   从 synchronized 到 CAS 和 AQS - 彻底弄懂 Java 各种并发锁 https://juejin.cn/post/6844903759047294983
   面试必备：Java AQS 实现原理（图文）分析[精品长文] https://juejin.cn/post/6844903895622221832
   初识Lock与AbstractQueuedSynchronizer(AQS) https://juejin.cn/post/6844903601534418958
+  深入理解AbstractQueuedSynchronizer(AQS) https://juejin.cn/post/6844903601538596877
   
   
