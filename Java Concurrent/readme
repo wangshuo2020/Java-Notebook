@@ -49,5 +49,6 @@
   Lock，tryLock，lockInterruptibly区别 https://blog.csdn.net/u013851082/article/details/70140223
   Java：CAS(乐观锁) https://www.jianshu.com/p/ae25eb3cfb5d
   Thread的中断机制(interrupt) https://www.cnblogs.com/onlywujun/p/3565082.html
+  从 synchronized 到 CAS 和 AQS - 彻底弄懂 Java 各种并发锁 https://juejin.cn/post/6844903759047294983
   
   
