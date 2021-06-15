@@ -42,6 +42,7 @@
 知识点:
   JVM 引用计数法 & 引用链法详细解析：如何判断一个Java对象是否存活 https://blog.csdn.net/carson_ho/article/details/102540797
   字符串常量池、class常量池和运行时常量池 https://blog.csdn.net/qq_26222859/article/details/73135660
+  推荐收藏系列：一文理解JVM虚拟机（内存、垃圾回收、性能优化）解决面试中遇到问题 https://juejin.cn/post/6844903892774289421
   
 自己动手写 java 虚拟机: 
   https://zachaxy.github.io/2017/05/06/%E6%89%8B%E5%86%99JVM%E7%B3%BB%E5%88%97-1-%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/
