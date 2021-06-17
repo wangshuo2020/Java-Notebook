@@ -7,3 +7,10 @@
 面试题:
   《今天面试了吗》-Redis https://juejin.cn/post/6844904017387077640
 
+好文章:
+  深入学习Redis（1）：Redis内存模型 https://www.cnblogs.com/kismetv/p/8654978.html
+  深入学习Redis（2）：持久化 https://www.cnblogs.com/kismetv/p/9137897.html
+  深入学习Redis（3）：主从复制 https://www.cnblogs.com/kismetv/p/9236731.html
+  深入学习Redis（4）：哨兵 https://www.cnblogs.com/kismetv/p/9609938.html
+  深入学习Redis（5）：集群 https://www.cnblogs.com/kismetv/p/9853040.html
+
