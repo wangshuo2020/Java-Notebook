@@ -11,7 +11,7 @@
   
 3、JWT是如何工作的？
   用户向权限认证服务器发送请求，根据认证信息认证服务器决定是否向用户发放JWT。用户在获取JWT后，在访问应用服务器时总是带上token，经过应用服务器的身份验证即可登录系统。JWT有三部分组
-成，header，payload，signature。其中，header是一个json对象，header中主要有两个key，”typ”和”	alg”，”typ”指的是生成令牌的类型，”alg”表明加密时使用的是什么算法，常用的有HS256算法；
+成，header，payload，signature。其中，header是一个json对象，header中主要有两个key，”typ”和”alg”，”typ”指的是生成令牌的类型，”alg”表明加密时使用的是什么算法，常用的有HS256算法；
 payload中存放着用户的信息，特别是用户id，可以在该部分存放任何想存放的信息；signature的计算过程大致为：先用base64url对header和payload进行编码，把结果用”.”连接起来，对连接后的字符
 串使用HS256算法进行编码，密钥设置为secret，即可获取签名所需的散列数据，再对散列数据用base64url进行编码，即可获取signature，将header，payload，signature拼接起来，即为JWT。JWT确保
 了数据的可靠性。在应用服务器会对接收到的token进行验证，验证方式为：应用服务器与认证服务器都是已知密钥的，应用服务器会验证自身根据密钥生成的签名与接收到的签名是否一致，如果不一致，
