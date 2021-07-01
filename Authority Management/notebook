@@ -1,0 +1,17 @@
+1、怎么实现单机上的登录状态保持？
+  有两种方案，第一种是cookie+session的方案，第二种是基于token的方案。第一种方案，在用户第一次登录服务器时，服务器会为该用户生成一个session对象，并且把用户信息放在session对象中，同时向浏览器发送一个cookie，其key为JSESSIONID，value为生成session对象的id，这样在第二次登录时就可以通过cookie访问到session里的用户信息。第二种方案，在用户第一次登录服务器时，会为该用户生成一个token，并且发送回浏览器，之后在登录时都带上这个token，服务器在对token里的信息认证之后，就可以直接登录页面。其中，token是经过编码的，因此安全性得到了保障，别人劫持了token的值也破解不了其中的内容。
+  
+2、怎么实现单点登录？
+  实现单点登录有三种方案，第一种通过session广播机制实现，将session对象复制到多个服务器上，从而采用cookie+session的方案实现登录状态的保持，该方案只适合用在服务器较少的情况，会发生空间上的冗余；第二种方案是通过cookie+redis实现，将session对象保存到redis中，并且把session的key发送到cookie中，在每次登录时根据cookie中的key查询redis中是否有相应的session对象，如果有，那就是登录状态；第三种方案是使用token实现，和实现单机保持登陆状态的过程一致。
+  
+3、JWT是如何工作的？
+  用户向权限认证服务器发送请求，根据认证信息认证服务器决定是否向用户发放JWT。用户在获取JWT后，在访问应用服务器时总是带上token，经过应用服务器的身份验证即可登录系统。JWT有三部分组成，header，payload，signature。其中，header是一个json对象，header中主要有两个key，”typ”和”	alg”，”typ”指的是生成令牌的类型，”alg”表明加密时使用的是什么算法，常用的有HS256算法；payload中存放着用户的信息，特别是用户id，可以在该部分存放任何想存放的信息；signature的计算过程大致为：先用base64url对header和payload进行编码，把结果用”.”连接起来，对连接后的字符串使用HS256算法进行编码，密钥设置为secret，即可获取签名所需的散列数据，再对散列数据用base64url进行编码，即可获取signature，将header，payload，signature拼接起来，即为JWT。JWT确保了数据的可靠性。在应用服务器会对接收到的token进行验证，验证方式为：应用服务器与认证服务器都是已知密钥的，应用服务器会验证自身根据密钥生成的签名与接收到的签名是否一致，如果不一致，则说明数据不可靠。其中，JWT应该通过HTTPS连接发送，防止JWT被盗用，另外要给JWT设置较短的过期时间，在令牌被盗用后会很快过期。
+  
+4、OAuth2的四种授权方式
+  OAuth2是一个授权协议，在资源所有者向客户端发放令牌后，客户端就可以访问资源所有者的资源。OAuth2的四种授权方式包括密码式、授权码等。通常采用的授权方式是授权码模式。在使用OAuth2授权协议之前，首先要向资源所有者申请身份的唯一标识，即client id与client secret，以微信登录在线教育网站为例，授权的具体流程为：用户用微信扫码二维码，网站向微信发起授权请求，微信询问用户是否同意授权，用户同意授权后，微信根据redirect_uri参数的值重定向并带上授权码，网站拿到授权码之后，带上授权码与密钥client secret向微信申请令牌access_token，校验通过后，微信向重定向地址redirect_uri发送JSON数据，json中access_token的值就是令牌。在向微信申请令牌时要带上参数grant_type=authorization_code表示采用的授权方式是授权码方式。
+  
+5、申请到的OAuth2令牌怎么用？
+  在向微信发送请求时，将令牌也就是token放在请求头的Authorization字段里，或者直接把token拼接在请求链接的后面。
+  
+6、OAuth2发放的令牌过期了怎么办？
+  OAuth2在发放令牌时一次发放两个，一个用来请求API，另一个则用来更新令牌，即refresh_token，将grant_type设置为refresh_token即可向微信请求更新令牌，校验通过后微信会返回新的access_token。
